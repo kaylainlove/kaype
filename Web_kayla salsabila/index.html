@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar Box CSS</title>
+    <style>
+        /* Ini adalah bagian CSS untuk menghias kotak */
+        .kotak-profil {
+            background-color: rgb(10, 43, 54); /* Warna latar */
+            width: 300px;               /* Lebar kotak */
+            padding: 20px;              /* Jarak di dalam kotak */
+            border: 5px solid navy;     /* Garis pinggir */
+            border-radius: 15px;        /* Membuat sudut melengkung */
+            text-align: center;         /* Teks di tengah */
+            margin: 50px auto;          /* Kotak berada di tengah halaman */
+            font-family: sans-serif;
+        }
+
+        .foto-dummy {
+            background-color: white;
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 15px;
+            object-fit: cover;
+            border-radius: 50%;         /* Membuat lingkaran */
+            line-height: 100px;         /* Agar teks di tengah lingkaran */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="kotak-profil">
+        <div class="foto-dummy">FOTO</div>
+        <h1>Nama Siswa</h1>
+        <p>Siswa Kelas 8 SMP</p>
+        <button>Kenali Saya</button>
+    </div>
+
+</body>
+</html>
